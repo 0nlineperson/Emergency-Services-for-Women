@@ -1,0 +1,21 @@
+! name: Emergency Services
+! description: Websites With Information on Emergency Services
+! public: true
+! author: Dumbo
+! avatar: #9244e0
+
+$discard
+$downrank,site=medium.com
+
+$boost=1,site=github.io
+$boost=1,site=micro.blog
+/blog.$boost=1
+/blog/$boost=1
+
+$boost=3,site=https://www.womenshelters.org/
+$boost=3,site=https://www.doorwaysva.org/our-work/emergency-shelter-and-long-term-housing/
+$boost=3,site=https://www.womenagainstabuse.org/get-help/resources/housing-shelter
+$boost=3,site=https://www.womenagainstabuse.org/get-help/resources/housing-shelter
+$boost=3,site=https://www.womenagainstabuse.org/get-help/resources/housing-shelter
+$boost=3,site=https://lowly-glory-wire.glitch.me
+
